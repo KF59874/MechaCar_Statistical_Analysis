@@ -14,7 +14,7 @@ In the first section of this report, the MechaCar_mpg.csv was used to conduct an
 - Is the slope of the linear model considered to be zero? Why or why not?
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The following results were yielded from the multiple linear regression model: 
+The following results were yielded from the linear regression model: 
 ![Coefficients](images/stats.png)
 
 The coefficients' p-values are are follows:
