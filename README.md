@@ -68,25 +68,3 @@ T-test Lot #2:
 T-test Lot #3:
 
 ![PSI lot values](images/t_lot_3.PNG)
-
-## Deliverable 4 - Study Design: MechaCar vs Competition
-
-### Overview 
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
-
-
-#### What metric or metrics are you going to test?
-To avoid misrepresentation, and thus an unsuccessful analysis, the sample data will need to be large and chosen at random. The variance of the data will additionally need to be similar as to yield a similar testing environment. 
-
-#### What is the null hypothesis or alternative hypothesis?
-The null-hypothesis is that there is no statistical differnce between MechaCar's mpg values and those of the competition.
-The alternative hypothesis would be that the mean of MechaCar's mpg values is greateer than the mean of the competitors. 
-
-#### What statistical test would you use to test the hypothesis? And why?
-A t-test is the optimal test to use, as it compares the data set of two different groups. In this case: MechaCar and the competitors.
-
-#### What data is needed to run the statistical test?
-The result must yield that the p-value is < 0.05 to reject the null hypothesis, or in other words, that the alternative hypothesis is true. 
