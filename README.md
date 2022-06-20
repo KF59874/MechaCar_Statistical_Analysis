@@ -15,6 +15,7 @@ In the first section of this report, the MechaCar_mpg.csv was used to conduct an
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 The following results were yielded from the linear regression model: 
+
 ![Coefficients](images/stats.png)
 
 The coefficients' p-values are are follows:
@@ -50,18 +51,22 @@ However, looking at the lots individually, it is apparent that Lot 1 and Lot 2 a
 ![PSI lot values](images/lot_summary.PNG)
 
 ### Deliverable 3 - T-Tests on Suspension Coils
-The t-test of all lots combined is as follows: 
+The t-test of all lots combined is as follows:
+
 ![PSI lot values](images/t_test.PNG)
 
 With the above t-test result, it is apparent that the p-values for all lots combined is 0.06028, thus p-value=0.06028 > 0.05. This means there is no statistical significance to reject the null hypothesis. 
 
 T-test Lot #1:
+
 ![PSI lot values](images/t_lot_1.PNG)
 
 T-test Lot #2:
+
 ![PSI lot values](images/t_lot_2.PNG)
 
 T-test Lot #3:
+
 ![PSI lot values](images/t_lot_3.PNG)
 
 ## Deliverable 4 - Study Design: MechaCar vs Competition
