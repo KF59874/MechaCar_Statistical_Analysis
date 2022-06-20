@@ -15,7 +15,7 @@ In the first section of this report, the MechaCar_mpg.csv was used to conduct an
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 The following results were yielded from the multiple linear regression model: 
-![Coefficients](images/summary_results)
+![Coefficients](images/stats.png)
 
 The coefficients' p-values are are follows:
 - Vehicle Length: 2.60e-12 
@@ -41,28 +41,28 @@ The second portion of the analysis, looks at whether the variance of the suspens
 
 #### Does the manufacturing data meet the specifications for all total lots and for each lot individually?
 
-![PSI values](images/total_summary)
+![PSI values](images/total_summary.PNG)
 
 The total summary results indicate that the variance of the PSI sample distributio adn the standard deviation are within the design specifications and do not exceed 100 PSI.
 
 However, looking at the lots individually, it is apparent that Lot 1 and Lot 2 are within the design specifications, however Lot 3 shows the most variance and exceeds the design specifications. 
 
-![PSI lot values](images/lot_summary.png)
+![PSI lot values](images/lot_summary.PNG)
 
 ### Deliverable 3 - T-Tests on Suspension Coils
 The t-test of all lots combined is as follows: 
-![PSI lot values](images/t_test.png)
+![PSI lot values](images/t_test.PNG)
 
 With the above t-test result, it is apparent that the p-values for all lots combined is 0.06028, thus p-value=0.06028 > 0.05. This means there is no statistical significance to reject the null hypothesis. 
 
 T-test Lot #1:
-![PSI lot values](images/t_lot_1.png)
+![PSI lot values](images/t_lot_1.PNG)
 
 T-test Lot #2:
-![PSI lot values](images/t_lot_2.png)
+![PSI lot values](images/t_lot_2.PNG)
 
 T-test Lot #3:
-![PSI lot values](images/t_lot_3.png)
+![PSI lot values](images/t_lot_3.PNG)
 
 ## Deliverable 4 - Study Design: MechaCar vs Competition
 
